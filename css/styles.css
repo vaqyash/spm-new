@@ -1,5 +1,21 @@
 
 
+/* --- Global styles --- */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-txt-disabled: #656F6D;
+
+    --font-logo: 'Raleway', sans-serif;
+    --font-main: 'Roboto', sans-serif;
+    --time-func: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 body {
     font-family: 'Roboto'
 }
@@ -17,5 +33,9 @@ header {
 }
 
 .lang-options {
+    display: flex;
+
+    list-style-type: none;
+    color: var(--clr-txt-disabled);
 
 }
