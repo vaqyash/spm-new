@@ -1,13 +1,21 @@
 
 
+body {
+    font-family: 'Roboto'
+}
+
 header {
     display: flex;
 
     margin: 0;
     padding: 24px 0;
 
-    height: 96px;
-    
+    height: 80px;
+
     background: #323232; 
     
+}
+
+.lang-options {
+
 }
